@@ -13,7 +13,7 @@
     font-family: Arial, sans-serif;
     line-height: 1.5;
     color: #333;
-    background-color: #b7d7e8;
+    background-color: #cfe0e8;
   }
   header, main, footer {
     max-width: 1200px;
@@ -25,7 +25,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f2f2f2;
+    background-color: #6b5b95;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 5px;
   }
   /*Rubric Layout Criteria: Uses Flexbox at least twice throughout the project to create a component or pattern.*/
   nav ul {
@@ -36,7 +41,7 @@
     margin-right: 20px;
   }
   nav a {
-    color: #333;
+    color: #eaece5;
     text-decoration: none;
   }
   nav a:hover {
@@ -49,15 +54,23 @@
     grid-gap: 20px;
   }
   aside {
-    background-color: #f2f2f2;
     padding: 20px;
-    text-align: center;
+    height: 80%;
+    background-color: #d6cbd3;
+    border-radius: 5px;
   }
   aside h2 {
     margin-bottom: 10px;
+    color: #034f84;
+    text-align: center;
   }
   aside img {
     max-width: 100%;
+    border: 3px solid white;
+    text-align: center;
+  }
+  aside p {
+    margin-top: 1em;
   }
   .posts {
     display: flex;
@@ -67,21 +80,101 @@
   article {
     width: calc(50% - 10px);
     margin-bottom: 20px;
+    background-color: #eaece5;
+    padding: 1em;
+    box-shadow: 10px 10px 5px #a2b9bc;
   }
   article h2 {
     margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    border: 1px solid #034f84;
+    padding: 1em;
+    border-radius: 5px;
+    background-color: #034f84;
+    color: #eaece5;
+    text-align: center;
   }
-
+  article h3 {
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
+    border: 1px solid #6b5b95;
+    padding: 1em;
+    border-radius: 5px;
+    background-color: #6b5b95;
+    color: white;
+    text-align: justify;
+  }
+  article p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    border: 1px solid #deeaee;
+    padding: 1em;
+    background-color: #deeaee;
+    text-align: justify;
+  }
   #author-image {
     border-radius: 5px;
   }
-
-  span {
+  article span {
     font-weight: bold;
     font-style: italic;
     text-decoration: underline;
+    color: #034f84;
   }
-
+  .article-image {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+  }
   .card {
-    border: 1px solid red;
+    border-radius: 5px;
+  }
+  #read-more-button {
+    padding: 1em;
+    background-color: #c94c4c;
+    border: 1px solid #c94c4c;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  #read-more-button a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+  }
+  #read-more-button a:hover {
+    font-size: 1.1em;
+  }
+  figure figcaption {
+    font-size: 0.8em;
+    color: #6b5b95;
+    font-weight: bold;
+    padding: 5px;
+    border: 2px solid #deeaee;
+    background-color: #deeaee;
+    border-radius: 5px;
+  }
+  figure {
+    text-align: center;
+  }
+  #about-content {
+    text-align: justify;
+    padding: 1em;
+    border: 1px solid #deeaee;
+    background-color: #deeaee;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #bc5a45;
+  }
+  footer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    color: #bc5a45;
+    margin-bottom: 1em;
   }

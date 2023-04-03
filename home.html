@@ -31,47 +31,51 @@
         <!-- Rubric Patterns Criteria: Blog Post Card. -->
         <article class="grid-item card">
           <!-- Rubric Design Criteria: Headers (h1 to h3 at minimum). -->
-          <h2>Mario Less, a nightmare, a filter, or a necessary Harvard rite of passage!</h2>
-          <!-- Rubric Design Criteria: Headers (h1 to h3 at minimum). -->
+          <h2>MARIO LESS, A NIGHTMARE, A FILTER, OR A NECESSARY HARVARD RITE OF PASSAGE!</h2>
+          <img src="images/mario-less.jpg" alt="Article Picture" class="article-image" width="200px">
+           <!-- Rubric Design Criteria: Headers (h1 to h3 at minimum). -->
           <h3>Mario Less is the first challenge that all those who dream of obtaining their Harvard CS50 certificate, are obliged to overcome if they really want to become programmers.</h3>
           <!-- Rubric Design Criteria: Paragraph Text <p> a. Bold, b. Italic, c. Underlined. -->
-          <p><span>So there you are ... </span>Sitting in front of your computer with a blank mind, completely discouraged and wanting to throw in the towel …</p>
+          <p><span>So there you are ... </span>sitting in front of your computer with a blank mind, completely discouraged and wanting to throw in the towel ...</p>
           <!-- Rubric Structure Criteria: There is an intentional user flow on each page with appropiate links as needed. -->
           <!-- Rubric Design Criteria: Components - button. -->
-          <button><a href="pages/blog-post-1.html">Read More</a></button>
+          <button id="read-more-button"><a href="pages/blog-post-1.html">Read More</a></button>
         </article>
         <!-- Rubric Design Criteria: Components - card. -->
         <article class="grid-item card">
           <!-- Rubric Design Criteria: Headers (h1 to h3 at minimum). -->
-          <h2>My Second Blog Post</h2>
+          <h2>MARIO MORE, THE NEXT STEP TOWARDS CONQUERING YOUR COMPUTER SCIENCE FEARS!</h2>
+          <img src="images/mario-more.jpg" alt="Article Picture" class="article-image" width="100px" height="195px">
           <!-- Rubric Design Criteria: Headers (h1 to h3 at minimum). -->
-          <h3>Brief</h3>
-          <p>Phasellus condimentum accumsan nisi, vel convallis elit lobortis vel. Vivamus malesuada leo sit amet sapien feugiat, vel malesuada diam faucibus. Ut sit amet lectus vel mi blandit pharetra a eu quam. Suspendisse potenti.</p>
+          <h3>Mario More is the first optional problem in the Problem Sets of CS50 Introduction to Computer Science course.  Many students prefer to ignore it.</h3>
+          <p><span>So there you are ... </span>lying on the couch in front of the TV and getting ready to relax completely by watching some good movie ...</p>
           <!-- Rubric Structure Criteria: There is an intentional user flow on each page with appropiate links as needed. -->
           <!-- Rubric Design Criteria: Components - button. -->
-          <button><a href="pages/blog-post-1.html">Read More</a></button>
+          <button id="read-more-button"><a href="pages/blog-post-1.html">Read More</a></button>
         </article>
         <!-- Rubric Design Criteria: Components - card. -->
         <article class="grid-item card">
           <!-- Rubric Design Criteria: Headers (h1 to h3 at minimum). -->
-          <h2>My Third Blog Post</h2>
+          <h2>CRAZY TYPES OF HARVARD'S CS50 STUDENTS YOU DON'T WANT TO LOOK LIKE!</h2>
+          <img src="images/crazy-types.jpg" alt="Article Picture" class="article-image" width="100px" height="195px">
           <!-- Rubric Design Criteria: Headers (h1 to h3 at minimum). -->
-          <h3>Brief</h3>
-          <p>Phasellus condimentum accumsan nisi, vel convallis elit lobortis vel. Vivamus malesuada leo sit amet sapien feugiat, vel malesuada diam faucibus. Ut sit amet lectus vel mi blandit pharetra a eu quam. Suspendisse potenti.</p>
+          <h3>There are characters who are a little bit crazy everywhere, and the online Harvard’s CS50 is not the exception.</h3>
+          <p><span>If you feel identified with any of them,</span> don’t worry, the purpose of this blog, is to help you to find solutions to your programming challenges ...</p>
           <!-- Rubric Structure Criteria: There is an intentional user flow on each page with appropiate links as needed. -->
           <!-- Rubric Design Criteria: Components - button. -->
-          <button><a href="pages/blog-post-1.html">Read More</a></button>
+          <button id="read-more-button"><a href="pages/blog-post-1.html">Read More</a></button>
         </article>
         <!-- Rubric Design Criteria: Components - card. -->
         <article class="grid-item card">
           <!-- Rubric Design Criteria: Headers (h1 to h3 at minimum). -->
-          <h2>My Fourth Blog Post</h2>
+          <h2>DON'T PANIC WITH CS50 IDE AND COMMAND LINE, AND LEARN HOW TO MASTER IT!</h2>
+          <img src="images/computer-panic.jpg" alt="Article Picture" class="article-image" width="100px" height="195px">
           <!-- Rubric Design Criteria: Headers (h1 to h3 at minimum). -->
-          <h3>Brief</h3>
-          <p>Phasellus condimentum accumsan nisi, vel convallis elit lobortis vel. Vivamus malesuada leo sit amet sapien feugiat, vel malesuada diam faucibus. Ut sit amet lectus vel mi blandit pharetra a eu quam. Suspendisse potenti.</p>
+          <h3>Please help me, I can’t understand how this works!!! ... this is one of the most common messages found on collaborative platforms.</h3>
+          <p><span>Some aspiring computer science students,</span> especially younger ones who were born and who were raised in a world with Windows, and graphical interfaces ...</p>
           <!-- Rubric Structure Criteria: There is an intentional user flow on each page with appropiate links as needed. -->
           <!-- Rubric Design Criteria: Components - button. -->
-          <button><a href="pages/blog-post-1.html">Read More</a></button>
+          <button id="read-more-button"><a href="pages/blog-post-1.html">Read More</a></button>
         </article>
       </section>
       <!-- aside section with information about the author -->
@@ -83,15 +87,35 @@
         <!-- Rubric Design Criteria: Components - Image Caption. -->
         <figure>
           <p><img src="images/me.jpg" alt="My Profile Picture" id="author-image">
-          <figcaption>Andres R. Bucheli FrontEnd Web Developer</figcaption><p>
+          <figcaption>Andres R. Bucheli Front-End Web Developer</figcaption><p>
         </figure>
         <!--<img src="images/me.jpg" alt="My Profile Picture" id="author-image">-->
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu nisl mauris. Sed nec enim neque. Vestibulum auctor felis et purus dapibus elementum.</p>
+        <div id="about-content">
+          <p>Hi! I'm a Software Engineer with experience in Front-End, Full-Stack Web Development, 
+            UI/UX design, Web design, React Development, Mobile Application Development with React Native, and founder of <a class="colored-link"
+            href="https://bucheli-web-personal-portfolio-website.netlify.app/index.html" target="blank">Bucheli Web Development.</a>
+          </p>
+          <p>
+            I have a degree in <a class="colored-link"
+            href="https://bucheli-web-personal-portfolio-website.netlify.app/education.html" target="blank">Electronics Engineering</a>, an applied Master's degree in Telecommunications Engineering Project Management, and I'm an Artificial Intelligence Developer,
+            and a Hybrid Cloud Engineer, certified by Intel, Nutanix, and Udacity.  I also have a Master's degree in Management of Business and Financial Institutions.
+          </p>
+          <p >
+            My academic background in engineering, computer science, and business management, allows me to have the ability to analyze and understand in an efficient way the needs
+            of my clients and design products that contribute to the achievement of their business goals.
+          </p>
+          <p>
+            In my free time I like to <a class="colored-link"
+            href="https://www.youtube.com/watch?v=adOx5Hme-6Q" target="blank">play the guitar,</a> I build
+            home made <a class="colored-link"
+            href="https://www.youtube.com/watch?v=LPDFTO6uKQo" target="blank">effects</a> for electric guitars and I read books about history.
+          </p>
+        </div>
       </aside>
     </main>
     <!-- Rubric Patterns Criteria: Footer. -->
     <footer>
-      <p>&copy; 2023 Andres R. Bucheli</p>
+      <p>Andres R. Bucheli - Bucheli Web Development © 2023</p>
     </footer>
   </body>
 </html>
