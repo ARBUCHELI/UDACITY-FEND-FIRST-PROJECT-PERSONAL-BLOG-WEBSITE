@@ -176,6 +176,7 @@
     background-color: #deeaee;
     font-family: Arial, Helvetica, sans-serif;
     color: #bc5a45;
+    border-radius: 5px;
   }
   footer {
     font-family: 'Courier New', Courier, monospace;
@@ -189,4 +190,367 @@
     border-radius: 5px;
     background-color: #bc5a45;
     box-shadow: 10px 10px 10px #a2b9bc;
+    margin-left: auto;
+    margin-right: auto;
   }
+
+/* Reponsive css */
+@media only screen and (max-width: 1221px) {
+  footer {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
+@media only screen and (max-width: 1198px) {
+  aside {
+    height: 79%;
+  }
+}
+@media only screen and (max-width: 1191px) {
+  aside {
+    height: 78%;
+  }
+}
+@media only screen and (max-width: 1183px) {
+  aside {
+    height: 78%;
+  }
+}
+@media only screen and (max-width: 1172px) {
+  aside {
+    height: 80%;
+  }
+}
+@media only screen and (max-width: 1144px) {
+  aside {
+    height: 82%;
+  }
+}
+@media only screen and (max-width: 1074px) {
+  aside {
+    height: 83%;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  aside {
+    height: 87%;
+  }
+}
+@media only screen and (max-width: 1048px) {
+  aside {
+    height: 88%;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  aside {
+    height: 85%;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  aside {
+    height: 85%;
+  }
+}
+@media only screen and (max-width: 929px) {
+  aside {
+    height: 89%;
+  }
+}
+@media only screen and (max-width: 913px) {
+  aside {
+    height: 86%;
+  }
+}
+@media only screen and (max-width: 884px) {
+  aside {
+    height: 88%;
+  }
+}
+@media only screen and (max-width: 870px) {
+  aside {
+    height: 90%;
+  }
+}
+@media only screen and (max-width: 864px) {
+  aside {
+    height: 88%;
+  }
+}
+@media only screen and (max-width: 836px) {
+  aside {
+    height: 91%;
+  }
+  footer {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 833px) {
+  aside {
+    height: 92%;
+  }
+}
+@media only screen and (max-width: 830px) {
+  aside {
+    height: 92%;
+  }
+}
+@media only screen and (max-width: 821px) {
+  aside {
+    height: 90%;
+  }
+}
+@media only screen and (max-width: 812px) {
+  aside {
+    height: 89%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  aside {
+    height: 91%;
+  }
+}
+@media only screen and (max-width: 793px) {
+  aside {
+    height: 92%;
+  }
+}
+@media only screen and (max-width: 783px) {
+  aside {
+    height: 93%;
+  }
+}
+@media only screen and (max-width: 775px) {
+  aside {
+    height: 94%;
+  }
+}
+@media only screen and (max-width: 769px) {
+  aside {
+    height: 93%;
+  }
+}
+@media only screen and (max-width: 760px) {
+  aside {
+    height: 92%;
+  }
+}
+@media only screen and (max-width: 755px) {
+  aside {
+    height: 90%;
+  }
+}
+@media only screen and (max-width: 740px) {
+  aside {
+    height: 91%;
+  }
+}
+@media only screen and (max-width: 736px) {
+  aside {
+    height: 90%;
+  }
+}
+@media only screen and (max-width: 735px) {
+  aside {
+    height: 93%;
+  }
+}
+@media only screen and (max-width: 717px) {
+  aside {
+    height: 89%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  aside {
+    height: 88%;
+  }
+}
+@media only screen and (max-width: 699px) {
+  aside {
+    height: 87%;
+  }
+}
+@media only screen and (max-width: 695px) {
+  aside {
+    height: 85%;
+  }
+}
+@media only screen and (max-width: 686px) {
+  aside {
+    height: 83%;
+  }
+}
+@media only screen and (max-width: 680px) {
+  aside {
+    height: 80%;
+  }
+}
+@media only screen and (max-width: 675px) {
+  aside {
+    height: 80%;
+  }
+}
+@media only screen and (max-width: 668px) {
+  aside {
+    height: 80%;
+  }
+}
+@media only screen and (max-width: 664px) {
+  aside {
+    height: 75%;
+  }
+}
+@media only screen and (max-width: 648px) {
+  aside {
+    height: 73%;
+  }
+}
+@media only screen and (max-width: 631px) {
+  aside {
+    height: 70%;
+  }
+}
+@media only screen and (max-width: 624px) {
+  aside {
+    height: 69%;
+  }
+}
+@media only screen and (max-width: 617px) {
+  aside {
+    height: 67%;
+  }
+}
+@media only screen and (max-width: 606px) {
+  aside {
+    height: 66%;
+  }
+}
+@media only screen and (max-width: 605px) {
+  aside {
+    height: 65%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* Adjust header and nav styles for small screens */
+  body {
+    font-size: 0.8em;
+  }
+  aside {
+    height: 62%;
+  }
+  nav {
+    margin-top: 20px;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav li {
+    margin-bottom: 10px;
+  }
+  /* Adjust card styles for small screens */
+  .card {
+    width: 100%;
+  }
+  .article-image {
+    width: 100%;
+    height: auto;
+  }
+  /* Adjust read-more button styles for small screens */
+  #read-more-button {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 593px) {
+  aside {
+    height: 61%;
+  }
+}
+@media only screen and (max-width: 574px) {
+  aside {
+    height: 59%;
+  }
+}
+@media only screen and (max-width: 552px) {
+  aside {
+    height: 58%;
+  }
+}
+@media only screen and (max-width: 548px) {
+  aside {
+    height: 56%;
+  }
+}
+@media only screen and (max-width: 541px) {
+  aside {
+    height: 63%;
+  }
+}
+@media only screen and (max-width: 530px) {
+  aside {
+    height: 55%;
+  }
+}
+@media only screen and (max-width: 510px) {
+  aside {
+    height: 52%;
+  }
+}
+@media only screen and (max-width: 501px) {
+  aside {
+    height: 51%;
+  }
+}
+@media only screen and (max-width: 497px) {
+  aside {
+    height: 49%;
+  }
+}
+@media only screen and (max-width: 486px) {
+  aside {
+    height: 48%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  aside {
+    height: 46%;
+  }
+}
+@media only screen and (max-width: 478px) {
+  aside {
+    height: 44%;
+  }
+}
+@media only screen and (max-width: 415px) {
+  aside {
+    height: 51%;
+  }
+}
+@media only screen and (max-width: 394px) {
+  aside {
+    height: 46%;
+  }
+}
+@media only screen and (max-width: 391px) {
+  aside {
+    height: 45%;
+  }
+}
+@media only screen and (max-width: 376px) {
+  aside {
+    height: 43%;
+  }
+}
+@media only screen and (max-width: 361px) {
+  aside {
+    height: 43%;
+  }
+}
+@media only screen and (max-width: 281px) {
+  header {
+    width: 363px;
+  }
+  footer {
+    width: 363px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
