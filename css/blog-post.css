@@ -56,7 +56,24 @@
     object-fit: cover;
     margin-right: 1rem;
 }
-
+.author-name {
+    font-weight: bold;
+    color: #6b5b95
+}
+.author-title {
+    font-weight: bold;
+    color: #3b5998;
+}
+.author-company {
+    font-weight: bold;
+    color: #3b5998;
+}
+.author-bio {
+    font-weight: bold;
+}
+.post-date {
+    font-weight: bold;
+}
 .social-sharing ul {
     list-style: none;
     padding: 0;
@@ -83,4 +100,9 @@
   }
   .social-sharing i {
     margin-top: 7px;
+  }
+
+  q {
+    font-weight: bold;
+    color: #3b5998;
   }
