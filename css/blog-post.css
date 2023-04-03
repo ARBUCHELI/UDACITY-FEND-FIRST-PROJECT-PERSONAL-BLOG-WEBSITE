@@ -32,3 +32,31 @@
     object-fit: cover;
     margin-right: 1rem;
 }
+
+.social-sharing ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  .social-sharing li {
+    margin-right: 10px;
+  }
+  .social-sharing a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #3b5998;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    transition: all 0.3s ease-in-out;
+  }
+  .social-sharing a:hover {
+    background-color: #2d4373;
+  }
+  .social-sharing i {
+    margin-top: 7px;
+  }
