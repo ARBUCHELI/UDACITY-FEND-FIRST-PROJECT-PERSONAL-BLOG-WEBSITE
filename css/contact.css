@@ -19,6 +19,10 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #eaece5;
+    border: 1px solid #eaece5;
+    border-radius: 5px;
+    margin-bottom: 8em;
   }
 
   form {
@@ -26,6 +30,17 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
+    color: #034f84;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+
+  #label-name, #label-email, #label-message {
+    border: 1px solid #034f84;
+    border-radius: 5px;
+    background-color: #034f84;
+    color: white;
+    padding: 0.5em;
   }
 
   label,
@@ -48,14 +63,20 @@
   }
 
   button[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    border: none;
+    padding: 1em;
+    background-color: #c94c4c;
+    border: 1px solid #c94c4c;
     border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 5px 5px 4px #a2b9bc;
+    color: white;
     cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
   }
 
   button[type="submit"]:hover {
-    background-color: #3e8e41;
+    background-color: #3b5998;
+    border: 1px solid #3b5998;
+    font-size: 1.1em;
   }

@@ -31,6 +31,7 @@
     font-weight: bold;
     font-size: 1.2em;
     border-radius: 5px;
+    box-shadow: 10px 10px 10px #a2b9bc;
   }
   /*Rubric Layout Criteria: Uses Flexbox at least twice throughout the project to create a component or pattern.*/
   nav ul {
@@ -58,6 +59,7 @@
     height: 80%;
     background-color: #d6cbd3;
     border-radius: 5px;
+    box-shadow: 10px 10px 10px #a2b9bc;
   }
   aside h2 {
     margin-bottom: 10px;
@@ -82,7 +84,7 @@
     margin-bottom: 20px;
     background-color: #eaece5;
     padding: 1em;
-    box-shadow: 10px 10px 5px #a2b9bc;
+    box-shadow: 10px 10px 10px #a2b9bc;
   }
   article h2 {
     margin-bottom: 10px;
@@ -139,6 +141,7 @@
     border: 1px solid #c94c4c;
     border-radius: 5px;
     margin-top: 15px;
+    box-shadow: 5px 5px 4px #a2b9bc;
   }
   #read-more-button a {
     color: white;
@@ -146,6 +149,10 @@
     font-family: Arial, sans-serif;
     font-weight: bold;
     font-size: 1em;
+  }
+  #read-more-button:hover {
+    background-color: #3b5998;
+    border: 1px solid #3b5998;
   }
   #read-more-button a:hover {
     font-size: 1.1em;
@@ -175,6 +182,11 @@
     font-size: 1.5em;
     text-align: center;
     font-weight: bold;
-    color: #bc5a45;
+    color: white;
     margin-bottom: 1em;
+    border: 1px solid #bc5a45;
+    padding: 1em;
+    border-radius: 5px;
+    background-color: #bc5a45;
+    box-shadow: 10px 10px 10px #a2b9bc;
   }
