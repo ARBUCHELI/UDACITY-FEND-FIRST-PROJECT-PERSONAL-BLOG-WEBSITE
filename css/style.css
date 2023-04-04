@@ -1,4 +1,5 @@
 /* Rubric Structure Criteria: There should be at least 3 imported files in the main css file. */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import './blog-post.css';
 @import './about.css';
 @import './contact.css';
@@ -33,6 +34,11 @@
     border-radius: 5px;
     box-shadow: 10px 10px 10px #a2b9bc;
   }
+  header h1 {
+    color: #80ced6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+  }
   /*Rubric Layout Criteria: Uses Flexbox at least twice throughout the project to create a component or pattern.*/
   nav ul {
     display: flex;
@@ -42,11 +48,15 @@
     margin-right: 20px;
   }
   nav a {
-    color: #eaece5;
+    color: #feb236;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
   }
   nav a:hover {
     text-decoration: underline;
+    color: #a2b9bc;
   }
   /*Rubric Layout Criteria: Uses CSS Grid at least twice throughout the project to create the layout for pages.*/
   main {
@@ -56,15 +66,20 @@
   }
   aside {
     padding: 20px;
-    height: 80%;
+    height: fit-content;
     background-color: #d6cbd3;
     border-radius: 5px;
     box-shadow: 10px 10px 10px #a2b9bc;
   }
   aside h2 {
     margin-bottom: 10px;
-    color: #034f84;
+    color: #6b5b95;
     text-align: center;
+    border: 1px solid #feb236;
+    padding: 0.5em;
+    border-radius: 5px;
+    background-color: #feb236;
+    font-family: 'Montserrat', sans-serif;
   }
   aside img {
     max-width: 100%;
@@ -88,7 +103,7 @@
   }
   article h2 {
     margin-bottom: 10px;
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 1em;
     border: 1px solid #034f84;
@@ -100,7 +115,7 @@
   }
   article h3 {
     margin-bottom: 10px;
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 0.9em;
     border: 1px solid #6b5b95;
@@ -137,8 +152,8 @@
   }
   #read-more-button {
     padding: 1em;
-    background-color: #c94c4c;
-    border: 1px solid #c94c4c;
+    background-color: #bc5a45;
+    border: 1px solid #bc5a45;
     border-radius: 5px;
     margin-top: 15px;
     box-shadow: 5px 5px 4px #a2b9bc;
@@ -146,7 +161,7 @@
   #read-more-button a {
     color: white;
     text-decoration: none;
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 1em;
   }
@@ -159,12 +174,13 @@
   }
   figure figcaption {
     font-size: 0.8em;
-    color: #6b5b95;
+    color: #034f84;
     font-weight: bold;
     padding: 5px;
     border: 2px solid #deeaee;
     background-color: #deeaee;
     border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
   }
   figure {
     text-align: center;
@@ -174,12 +190,12 @@
     padding: 1em;
     border: 1px solid #deeaee;
     background-color: #deeaee;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #bc5a45;
     border-radius: 5px;
   }
   footer {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     text-align: center;
     font-weight: bold;
@@ -195,93 +211,48 @@
   }
 
   /* Reponsive css */
-  @media only screen and (max-width: 1221px) {
-    footer {
-      margin-left: 1em;
-      margin-right: 1em;
-    }
-  }
-  @media only screen and (max-width: 1198px) {
+  @media only screen and (max-width: 1025px) {
     aside {
-      height: 79%;
-    }
-  }
-  @media only screen and (max-width: 1191px) {
-    aside {
-      height: 78%;
-    }
-  }
-  @media only screen and (max-width: 1183px) {
-    aside {
-      height: 78%;
-    }
-  }
-  @media only screen and (max-width: 1172px) {
-    aside {
-      height: 80%;
-    }
-  }
-  @media only screen and (max-width: 1144px) {
-    aside {
-      height: 82%;
-    }
-  }
-  @media only screen and (max-width: 1074px) {
-    aside {
-      height: 83%;
-    }
-  }
-  @media only screen and (max-width: 1050px) {
-    aside {
-      height: 87%;
-    }
-  }
-  @media only screen and (max-width: 1048px) {
-    aside {
-      height: 88%;
-    }
-  }
-  @media only screen and (max-width: 1020px) {
-    aside {
-      height: 85%;
-    }
-  }
-  @media only screen and (max-width: 1020px) {
-    aside {
-      height: 85%;
-    }
-  }
-  @media only screen and (max-width: 929px) {
-    aside {
-      height: 89%;
-    }
-  }
-  @media only screen and (max-width: 913px) {
-    aside {
-      height: 86%;
+      height: fit-content;
     }
     header {
       width: 100%;
       border-radius: 0%;
-      font-size: 1.9em;
+      font-size: 0.8em;
+    }
+    .article-image {
+      max-height: 120px;
+    }
+    article h2 {
+      font-size: 0.75em;
+    }
+    article h3 {
+      font-size: 0.8em;
     }
     footer {
-      font-size: 1.9em;
+      font-size: 1.4em;
     }
   }
-  @media only screen and (max-width: 884px) {
+  @media only screen and (max-width: 913px) {
     aside {
-      height: 88%;
+      height: fit-content;
     }
-  }
-  @media only screen and (max-width: 870px) {
-    aside {
-      height: 90%;
+    header {
+      width: 100%;
+      border-radius: 0%;
+      font-size: 1em;
     }
-  }
-  @media only screen and (max-width: 864px) {
-    aside {
-      height: 88%;
+    .article-image {
+      max-height: 120px;
+    }
+    article h2 {
+      font-size: 0.8em;
+    }
+    article h3 {
+      font-size: 0.8em;
+    }
+    footer {
+      font-size: 1.7em;
     }
   }
   @media only screen and (max-width: 836px) {
@@ -292,157 +263,31 @@
       font-size: 1em;
     }
   }
-  @media only screen and (max-width: 833px) {
-    aside {
-      height: 92%;
-    }
-  }
-  @media only screen and (max-width: 830px) {
-    aside {
-      height: 92%;
-    }
-  }
   @media only screen and (max-width: 821px) {
     aside {
-      height: 90%;
+      height: fit-content;
     }
     header {
       width: 100%;
       border-radius: 0%;
-      font-size: 1.7em;
+      font-size: 1em;
     }
     footer {
-      font-size: 1.7em;
+      font-size: 1.3em;
     }
-  }
-  @media only screen and (max-width: 812px) {
-    aside {
-      height: 89%;
-    }
-  }
-  @media only screen and (max-width: 800px) {
-    aside {
-      height: 91%;
-    }
-  }
-  @media only screen and (max-width: 793px) {
-    aside {
-      height: 92%;
-    }
-  }
-  @media only screen and (max-width: 783px) {
-    aside {
-      height: 93%;
-    }
-  }
-  @media only screen and (max-width: 775px) {
-    aside {
-      height: 94%;
+    .article-image {
+      max-height: 120px;
     }
   }
   @media only screen and (max-width: 769px) {
     aside {
-      height: 93%;
+      height: fit-content;
     }
-  }
-  @media only screen and (max-width: 760px) {
-    aside {
-      height: 92%;
+    .article-image {
+      max-height: 110px;
     }
-  }
-  @media only screen and (max-width: 755px) {
-    aside {
-      height: 90%;
-    }
-  }
-  @media only screen and (max-width: 740px) {
-    aside {
-      height: 91%;
-    }
-  }
-  @media only screen and (max-width: 736px) {
-    aside {
-      height: 90%;
-    }
-  }
-  @media only screen and (max-width: 735px) {
-    aside {
-      height: 93%;
-    }
-  }
-  @media only screen and (max-width: 717px) {
-    aside {
-      height: 89%;
-    }
-  }
-  @media only screen and (max-width: 700px) {
-    aside {
-      height: 88%;
-    }
-  }
-  @media only screen and (max-width: 699px) {
-    aside {
-      height: 87%;
-    }
-  }
-  @media only screen and (max-width: 695px) {
-    aside {
-      height: 85%;
-    }
-  }
-  @media only screen and (max-width: 686px) {
-    aside {
-      height: 83%;
-    }
-  }
-  @media only screen and (max-width: 680px) {
-    aside {
-      height: 80%;
-    }
-  }
-  @media only screen and (max-width: 675px) {
-    aside {
-      height: 80%;
-    }
-  }
-  @media only screen and (max-width: 668px) {
-    aside {
-      height: 80%;
-    }
-  }
-  @media only screen and (max-width: 664px) {
-    aside {
-      height: 75%;
-    }
-  }
-  @media only screen and (max-width: 648px) {
-    aside {
-      height: 73%;
-    }
-  }
-  @media only screen and (max-width: 631px) {
-    aside {
-      height: 70%;
-    }
-  }
-  @media only screen and (max-width: 624px) {
-    aside {
-      height: 69%;
-    }
-  }
-  @media only screen and (max-width: 617px) {
-    aside {
-      height: 67%;
-    }
-  }
-  @media only screen and (max-width: 606px) {
-    aside {
-      height: 66%;
-    }
-  }
-  @media only screen and (max-width: 605px) {
-    aside {
-      height: 65%;
+    article h2 {
+      font-size: 0.9em;
     }
   }
   @media only screen and (max-width: 600px) {
@@ -475,88 +320,34 @@
       width: 100%;
     }
   }
-  @media only screen and (max-width: 593px) {
-    aside {
-      height: 61%;
-    }
-  }
-  @media only screen and (max-width: 574px) {
-    aside {
-      height: 59%;
-    }
-  }
-  @media only screen and (max-width: 552px) {
-    aside {
-      height: 58%;
-    }
-  }
-  @media only screen and (max-width: 548px) {
-    aside {
-      height: 56%;
-    }
-  }
   @media only screen and (max-width: 541px) {
     aside {
-      height: 63%;
+      height: fit-content;
     }
     header {
       width: 100%;
       border-radius: 0%;
-      font-size: 1.4em;
+      font-size: 1em;
     }
     footer {
       font-size: 1.4em;
     }
   }
-  @media only screen and (max-width: 530px) {
-    aside {
-      height: 55%;
-    }
-  }
-  @media only screen and (max-width: 510px) {
-    aside {
-      height: 52%;
-    }
-  }
-  @media only screen and (max-width: 501px) {
-    aside {
-      height: 51%;
-    }
-  }
-  @media only screen and (max-width: 497px) {
-    aside {
-      height: 49%;
-    }
-  }
-  @media only screen and (max-width: 486px) {
-    aside {
-      height: 48%;
-    }
-  }
-  @media only screen and (max-width: 480px) {
-    aside {
-      height: 46%;
-    }
-  }
-  @media only screen and (max-width: 478px) {
-    aside {
-      height: 44%;
-    }
-  }
   @media only screen and (max-width: 415px) {
     aside {
-      height: 56%;
+      height: fit-content;
     }
     header {
       width: 100%;
       border-radius: 0%;
-      font-size: 1.9em;
+      font-size: 1.3em;
     }
     footer {
       width: 100%;
       margin-left: 0;
       margin-right: 0;
       font-size: 1.9em;
+      border-radius: 0%;
     }
     body {
       font-size: 0.5em;
@@ -565,42 +356,39 @@
   }
   @media only screen and (max-width: 394px) {
     aside {
-      height: 56%;
+      height: fit-content;
     }
   }
   @media only screen and (max-width: 391px) {
     aside {
-      height: 56%;
+      height: fit-content;
     }
   }
   @media only screen and (max-width: 376px) {
     aside {
-      height: 56%;
+      width: 100%;
+      height: fit-content;
     }
     header {
       width: 100%;
+      overflow-x: hidden;
       border-radius: 0%;
-      font-size: 1.9em;
+      font-size: 1.1em;
     }
     footer {
       width: 100%;
+      overflow-x: hidden;
       margin-left: 0;
       margin-right: 0;
-      font-size: 1.9em;
-    }
-    body {
-      font-size: 0.5em;
-      overflow-x: hidden;
+      font-size: 1.4em;
+      border-radius: 0%;
     }
   }
   @media only screen and (max-width: 361px) {
-    aside {
-      height: 56%;
-    }
     header {
       width: 100%;
       border-radius: 0%;
-      font-size: 1.9em;
+      font-size: 1.2em;
     }
     footer {
       width: 100%;
@@ -615,12 +403,12 @@
   }
   @media only screen and (max-width: 281px) {
     aside {
-      height: 39%;
+      height: fit-content;
     }
     header {
       width: 100%;
       border-radius: 0%;
-      font-size: 1.5em;
+      font-size: 0.8em;
     }
     footer {
       width: 100%;
