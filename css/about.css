@@ -60,9 +60,13 @@
     font-size: 1em;
     font-weight: bold;
   }
-
+  @media only screen and (max-width: 415px) {
+    .team-member img {
+      width: 150px;
+    }
+  }
   @media only screen and (max-width: 376px) {
-    aside {
-      height: 43%;
+    .team-member img {
+      width: 110px;
     }
   }

@@ -521,36 +521,83 @@
   }
   @media only screen and (max-width: 415px) {
     aside {
-      height: 51%;
+      height: 56%;
+    }
+    header {
+      width: 100%;
+      border-radius: 0%;
+    }
+    footer {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    body {
+      font-size: 0.5em;
+      overflow-x: hidden;
     }
   }
   @media only screen and (max-width: 394px) {
     aside {
-      height: 46%;
+      height: 56%;
     }
   }
   @media only screen and (max-width: 391px) {
     aside {
-      height: 45%;
+      height: 56%;
     }
   }
   @media only screen and (max-width: 376px) {
     aside {
-      height: 43%;
+      height: 56%;
+    }
+    header {
+      width: 100%;
+      border-radius: 0%;
+    }
+    footer {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    body {
+      font-size: 0.5em;
+      overflow-x: hidden;
     }
   }
   @media only screen and (max-width: 361px) {
     aside {
-      height: 43%;
+      height: 56%;
+    }
+    header {
+      width: 100%;
+      border-radius: 0%;
+    }
+    footer {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    body {
+      font-size: 0.5em;
+      overflow-x: hidden;
     }
   }
   @media only screen and (max-width: 281px) {
+    aside {
+      height: 39%;
+    }
     header {
-      width: 363px;
+      width: 100%;
+      border-radius: 0%;
     }
     footer {
-      width: 363px;
+      width: 100%;
       margin-left: 0;
       margin-right: 0;
+    }
+    body {
+      font-size: 0.5em;
+      overflow-x: hidden;
     }
   }
