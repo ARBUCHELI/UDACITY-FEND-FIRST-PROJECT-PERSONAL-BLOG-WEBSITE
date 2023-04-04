@@ -3,20 +3,19 @@
     margin: 0;
     padding: 0;
   }
-  body {
+  #contact-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6b5b95;
+    color: white;
     font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #a2b9bc;
   }
-
-  header {
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-
   .container {
-    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     background-color: #eaece5;
@@ -41,6 +40,7 @@
     background-color: #034f84;
     color: white;
     padding: 0.5em;
+    width: 150px;
   }
 
   label,
@@ -79,4 +79,136 @@
     background-color: #3b5998;
     border: 1px solid #3b5998;
     font-size: 1.1em;
+  }
+  @media only screen and (max-width: 1281px) {
+    body {
+      overflow-x: hidden;
+    }
+    .contact-main {
+      font-size: 1.5em;
+    }
+    .contact-container {
+      width: 1160px;
+    }
+  }
+  @media only screen and (max-width: 1026px) {
+    body {
+      overflow-x: hidden;
+    }
+    .contact-main {
+      font-size: 1.5em;
+    }
+    .contact-container {
+      width: 985px;
+    }
+  }
+  @media only screen and (max-width: 913px) {
+    body {
+      overflow-x: hidden;
+    }
+    .contact-main {
+      font-size: 1.5em;
+    }
+    .contact-container {
+      width: 870px;
+    }
+  }
+  @media only screen and (max-width: 821px) {
+    body {
+      overflow-x: hidden;
+    }
+    .contact-main {
+      font-size: 1.5em;
+    }
+    .contact-container {
+      width: 775px;
+    }
+  }
+  @media only screen and (max-width: 769px) {
+    body {
+      overflow-x: hidden;
+    }
+    .contact-main {
+      font-size: 1.5em;
+    }
+    .contact-container {
+      width: 725px;
+    }
+  }
+  @media only screen and (max-width: 541px) {
+    body {
+      overflow-x: hidden;
+    }
+    .contact-main {
+      font-size: 1.5em;
+    }
+    .contact-container {
+      width: 500px;
+    }
+  }
+  @media only screen and (max-width: 415px) {
+    body {
+      overflow-x: hidden;
+    }
+    .contact-main {
+      font-size: 1.5em;
+    }
+    .contact-container {
+      width: 370px;
+    }
+  }
+  @media only screen and (max-width: 394px) {
+    body {
+      overflow-x: hidden;
+    }
+    .contact-main {
+      font-size: 1.5em;
+    }
+    .contact-container {
+      width: 355px;
+    }
+  }
+  @media only screen and (max-width: 391px) {
+    body {
+      overflow-x: hidden;
+    }
+    .contact-main {
+      font-size: 1.5em;
+    }
+    .contact-container {
+      width: 350px;
+    }
+  }
+  @media only screen and (max-width: 376px) {
+    body {
+      overflow-x: hidden;
+    }
+    .contact-main {
+      font-size: 1.5em;
+    }
+    .contact-container {
+      width: 335px;
+    }
+  }
+  @media only screen and (max-width: 361px) {
+    body {
+      overflow-x: hidden;
+    }
+    .contact-main {
+      font-size: 1.5em;
+    }
+    .contact-container {
+      width: 321px;
+    }
+  }
+  @media only screen and (max-width: 281px) {
+    body {
+      overflow-x: hidden;
+    }
+    .contact-main {
+      font-size: 1.5em;
+    }
+    .contact-container {
+      width: 240px;
+    }
   }

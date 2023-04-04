@@ -18,6 +18,19 @@
     margin-bottom: 1em;
     color: #034f84;
     font-size: 2em;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    padding: 0.2em;
+    width: fit-content;
+  }
+  #me-header {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    padding: 0.2em;
+    width: fit-content;
+    margin-bottom: 1em;
   }
   #story-container {
     background-color: #034f84;
@@ -68,5 +81,10 @@
   @media only screen and (max-width: 376px) {
     .team-member img {
       width: 110px;
+    }
+  }
+  @media only screen and (max-width: 281px) {
+    .team-member img {
+      width: 90px;
     }
   }

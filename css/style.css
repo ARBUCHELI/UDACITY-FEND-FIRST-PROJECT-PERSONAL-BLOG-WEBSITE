@@ -260,6 +260,14 @@
     aside {
       height: 86%;
     }
+    header {
+      width: 100%;
+      border-radius: 0%;
+      font-size: 1.9em;
+    }
+    footer {
+      font-size: 1.9em;
+    }
   }
   @media only screen and (max-width: 884px) {
     aside {
@@ -297,6 +305,14 @@
   @media only screen and (max-width: 821px) {
     aside {
       height: 90%;
+    }
+    header {
+      width: 100%;
+      border-radius: 0%;
+      font-size: 1.7em;
+    }
+    footer {
+      font-size: 1.7em;
     }
   }
   @media only screen and (max-width: 812px) {
@@ -483,6 +499,14 @@
     aside {
       height: 63%;
     }
+    header {
+      width: 100%;
+      border-radius: 0%;
+      font-size: 1.4em;
+    }
+    footer {
+      font-size: 1.4em;
+    }
   }
   @media only screen and (max-width: 530px) {
     aside {
@@ -526,11 +550,13 @@
     header {
       width: 100%;
       border-radius: 0%;
+      font-size: 1.9em;
     }
     footer {
       width: 100%;
       margin-left: 0;
       margin-right: 0;
+      font-size: 1.9em;
     }
     body {
       font-size: 0.5em;
@@ -554,11 +580,13 @@
     header {
       width: 100%;
       border-radius: 0%;
+      font-size: 1.9em;
     }
     footer {
       width: 100%;
       margin-left: 0;
       margin-right: 0;
+      font-size: 1.9em;
     }
     body {
       font-size: 0.5em;
@@ -572,11 +600,13 @@
     header {
       width: 100%;
       border-radius: 0%;
+      font-size: 1.9em;
     }
     footer {
       width: 100%;
       margin-left: 0;
       margin-right: 0;
+      font-size: 1.9em;
     }
     body {
       font-size: 0.5em;
@@ -590,11 +620,13 @@
     header {
       width: 100%;
       border-radius: 0%;
+      font-size: 1.5em;
     }
     footer {
       width: 100%;
       margin-left: 0;
       margin-right: 0;
+      font-size: 1.5em;
     }
     body {
       font-size: 0.5em;
