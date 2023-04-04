@@ -3,7 +3,7 @@
   }
   body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
   main {
     display: grid;
@@ -16,24 +16,24 @@
   }
   #my-story-header {
     margin-bottom: 1em;
-    color: #034f84;
+    color: white;
     font-size: 2em;
-    border: 1px solid white;
+    border: 1px solid #034f84;
     border-radius: 5px;
-    background-color: white;
+    background-color: #034f84;
     padding: 0.2em;
     width: fit-content;
   }
   #me-header {
-    border: 1px solid white;
+    border: 1px solid #feb236;
     border-radius: 5px;
-    background-color: white;
+    background-color: #feb236;
     padding: 0.2em;
     width: fit-content;
     margin-bottom: 1em;
   }
   #story-container {
-    background-color: #034f84;
+    background-color: #6b5b95;
     padding: 1em;
     border-radius: 5px;
     color: white;
@@ -61,7 +61,7 @@
     box-shadow: 10px 10px 10px #a2b9bc;
   }
   #me-header {
-    color: #bc5a45;
+    color: #6b5b95;
     font-size: 2em;
   }
   #me h3 {
@@ -73,14 +73,34 @@
     font-size: 1em;
     font-weight: bold;
   }
+  @media only screen and (max-width: 913px) {
+    .team-member img {
+      width: 535px;
+    }
+  }
+  @media only screen and (max-width: 821px) {
+    .team-member img {
+      width: 401px;
+    }
+  }
+  @media only screen and (max-width: 541px) {
+    .team-member img {
+      width: 100px;
+    }
+  }
   @media only screen and (max-width: 415px) {
     .team-member img {
-      width: 150px;
+      width: 180px;
+    }
+  }
+  @media only screen and (max-width: 391px) {
+    .team-member img {
+      width: 190px;
     }
   }
   @media only screen and (max-width: 376px) {
     .team-member img {
-      width: 110px;
+      width: 120px;
     }
   }
   @media only screen and (max-width: 281px) {
