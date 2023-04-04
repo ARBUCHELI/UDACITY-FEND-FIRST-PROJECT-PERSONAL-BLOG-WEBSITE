@@ -54,6 +54,13 @@
     margin-bottom: 1rem;
     border-radius: 5px;
 }
+.post-image-4 {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
 .post-meta {
     display: flex;
     justify-content: space-between;
@@ -124,6 +131,80 @@
   .post-3-subheader {
     text-align: left;
   }
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+  }
+  .image-grid img {
+    max-width: 100%;
+    height: auto;
+  }
+  .blog-main {
+    border-radius: 5px;
+  }
+  @media only screen and (max-width: 1025px) {
+    .post-container {
+        width: 100%;
+    }
+  }
+  @media only screen and (max-width: 1025px) {
+    .blog-main {
+        font-size: 5em;
+        overflow-x: hidden;
+    }
+    .post-category {
+        font-size: 18px;
+    }
+    .post {
+        text-align: center;
+    }
+    .author {
+        text-align: left;
+    }
+    .post h2 {
+        font-size: 24px;
+    }
+    .author {
+        font-size: 18px;
+    }
+    .post h3 {
+        font-size: 20px;
+    }
+    .post #article-content {
+        font-size: 20px;
+    }
+    .post-image {
+        width: 790px;
+        height: 790px;
+        text-align: center;
+    }
+    .post-image-2 {
+        width: 820px;
+        height: 820px;
+        text-align: center;
+    }
+    .harvard {
+        width: 585px;
+        height: 270px;
+    }
+    .eternal {
+        width: 585px;
+        height: 270px;
+    }
+    .procastinator {
+        width: 585px;
+        height: 270px;
+    }
+    .narcissistic {
+        width: 585px;
+        height: 270px;
+    }
+    .sufferer {
+        width: 585px;
+        height: 270px;
+    }
+  }
   @media only screen and (max-width: 913px) {
     .post-container {
         width: 100%;
@@ -165,9 +246,26 @@
         height: 820px;
         text-align: center;
     }
-    body {
-        overflow-x: hidden;
-      }
+    .harvard {
+        width: 485px;
+        height: 270px;
+    }
+    .eternal {
+        width: 485px;
+        height: 270px;
+    }
+    .procastinator {
+        width: 485px;
+        height: 270px;
+    }
+    .narcissistic {
+        width: 485px;
+        height: 270px;
+    }
+    .sufferer {
+        width: 485px;
+        height: 270px;
+    }
   }
   @media only screen and (max-width: 821px) {
     .post-container {
@@ -210,9 +308,26 @@
         height: 735px;
         text-align: center;
     }
-    body {
-        overflow-x: hidden;
-      }
+    .harvard {
+        width: 420px;
+        height: 230px;
+    }
+    .eternal {
+        width: 420px;
+        height: 230px;
+    }
+    .procastinator {
+        width: 420px;
+        height: 230px;
+    }
+    .narcissistic {
+        width: 420px;
+        height: 230px;
+    }
+    .sufferer {
+        width: 420px;
+        height: 230px;
+    }
   }
   @media only screen and (max-width: 769px) {
     .post-container {
@@ -315,7 +430,7 @@
         overflow-x: hidden;
     }
     .post-category {
-        font-size: 11px;
+        font-size: 10px;
     }
     .post {
         text-align: center;
@@ -327,7 +442,7 @@
         font-size: 18px;
     }
     .author {
-        font-size: 11px;
+        font-size: 10px;
     }
     .post h3 {
         font-size: 16px;
@@ -353,6 +468,38 @@
     body {
         overflow-x: hidden;
       }
+      .harvard {
+        width: 280px;
+        height: 130px;
+    }
+    .eternal {
+        width: 280px;
+        height: 130px;
+    }
+    .procastinator {
+        width: 280px;
+        height: 130px;
+    }
+    .narcissistic {
+        width: 280px;
+        height: 130px;
+    }
+    .sufferer {
+        width: 280px;
+        height: 130px;
+    }
+  }
+  @media only screen and (max-width: 413px) {
+    .post-container {
+        width: 100%;
+    }
+  }
+  @media only screen and (max-width: 413px) {
+    .post-image-4 {
+        width: 300px;
+        height: 300px;
+        text-align: center;
+    }
   }
   @media only screen and (max-width: 394px) {
     .post-container {
@@ -365,7 +512,7 @@
         overflow-x: hidden;
     }
     .post-category {
-        font-size: 11px;
+        font-size: 10px;
     }
     .post {
         text-align: center;
@@ -377,7 +524,7 @@
         font-size: 16px;
     }
     .author {
-        font-size: 11px;
+        font-size: 10px;
     }
     .post h3 {
         font-size: 14px;
@@ -410,7 +557,7 @@
         overflow-x: hidden;
     }
     .post-category {
-        font-size: 11px;
+        font-size: 10px;
     }
     .post {
         text-align: center;
@@ -422,7 +569,7 @@
         font-size: 16px;
     }
     .author {
-        font-size: 11px;
+        font-size: 10px;
     }
     .post h3 {
         font-size: 14px;
@@ -443,11 +590,6 @@
     body {
         overflow-x: hidden;
       }
-  }
-  @media only screen and (max-width: 376px) {
-    .post-container {
-        width: 100%;
-    }
   }
   @media only screen and (max-width: 376px) {
     .blog-main {
@@ -464,16 +606,16 @@
         text-align: left;
     }
     .post h2 {
-        font-size: 16px;
+        font-size: 12px;
     }
     .author {
         font-size: 9px;
     }
     .post h3 {
-        font-size: 14px;
+        font-size: 10px;
     }
     .post #article-content {
-        font-size: 14px;
+        font-size: 10px;
     }
     .post-image {
         width: 260px;
@@ -490,8 +632,30 @@
         height: 260px;
         text-align: center;
     }
-    body {
-        overflow-x: hidden;
+    .post-image-4{
+        width: 270px;
+        height: 270px;
+        text-align: center;
+    }
+    .harvard {
+        width: 280px;
+        height: 130px;
+    }
+    .eternal {
+        width: 280px;
+        height: 130px;
+    }
+    .procastinator {
+        width: 280px;
+        height: 130px;
+    }
+    .narcissistic {
+        width: 280px;
+        height: 130px;
+    }
+    .sufferer {
+        width: 280px;
+        height: 130px;
     }
   }
   @media only screen and (max-width: 361px) {
@@ -535,17 +699,49 @@
         height: 276px;
         text-align: center;
     }
-    body {
-        overflow-x: hidden;
-      }
+    .post-image-3{
+        width: 276px;
+        height: 276px;
+        text-align: center;
+    }
+    .post-image-4{
+        width: 250px;
+        height: 250px;
+        text-align: center;
+    }
+    .harvard {
+        width: 260px;
+        height: 110px;
+    }
+    .eternal {
+        width: 260px;
+        height: 110px;
+    }
+    .procastinator {
+        width: 260px;
+        height: 110px;
+    }
+    .narcissistic {
+        width: 260px;
+        height: 110px;
+    }
+    .sufferer {
+        width: 260px;
+        height: 110px;
+    }
+  }
+  @media only screen and (max-width: 281px) {
+    .post-container {
+        width: 100%;
+    }
   }
   @media only screen and (max-width: 281px) {
     .blog-main {
-        font-size: 3em;
+        font-size: 5em;
         overflow-x: hidden;
     }
     .post-category {
-        font-size: 9px;
+        font-size: 7px;
     }
     .post {
         text-align: center;
@@ -554,29 +750,68 @@
         text-align: left;
     }
     .post h2 {
-        font-size: 16px;
+        font-size: 7px;
     }
     .author {
-        font-size: 9px;
+        font-size: 7px;
     }
     .post h3 {
-        font-size: 14px;
+        font-size: 7px;
     }
     .post #article-content {
-        font-size: 14px;
+        font-size: 7px;
     }
     .post-image {
-        width: 170px;
-        height: 170px;
+        width: 150px;
+        height: 150px;
         text-align: center;
     }
-    .post-image-2 {
+    .post-supporting-image {
         width: 200px;
         height: 200px;
+    }
+    .post-image-2 {
+        width: 150px;
+        height: 150px;
         text-align: center;
     }
-    body {
-        overflow-x: hidden;
+    .post-image-3 {
+        width: 150px;
+        height: 150px;
+        text-align: center;
+    }
+    .post-image-4 {
+        width: 150px;
+        height: 150px;
+        text-align: center;
+    }
+    .harvard {
+        width: 180px;
+        height: 50px;
+    }
+    .eternal {
+        width: 180px;
+        height: 50px;
+    }
+    .procastinator {
+        width: 180px;
+        height: 50px;
+    }
+    .narcissistic {
+        width: 180px;
+        height: 50px;
+    }
+    .sufferer {
+        width: 180px;
+        height: 50px;
+    }
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 10px;
+      }
+      .image-grid img {
+        max-width: 100%;
+        height: auto;
       }
   }
-
