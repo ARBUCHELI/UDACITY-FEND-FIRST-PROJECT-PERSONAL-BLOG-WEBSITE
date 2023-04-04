@@ -1,4 +1,6 @@
-/* Rubric Structure Criteria 2. : There should be at least 3 imported files in the main css file. */
+/* Rubric Structure Criteria 2. : There should be at least 3 imported files in the main css file,
+but the student is welcome to break it down even further if that makes it easier for them. */
+/*Importing font family Montserrat from Google Fonts.*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import './blog-post.css';
 @import './about.css';
