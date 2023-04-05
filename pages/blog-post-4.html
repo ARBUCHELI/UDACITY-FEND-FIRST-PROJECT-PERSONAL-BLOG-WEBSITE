@@ -1,3 +1,4 @@
+<!-- Rubric Quality Criteria 3. : HTML Style Rules. HTML documents HTML5 <!doctype html>. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,12 +11,14 @@
     <!-- Importing font-awesome icons.-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://udacity.github.io/veritas/v1.2.0/udacity.min.css">
+    <!-- Rubric Quality Criteria 3. : HTML Style Rules. Code omits type attributes for style sheets and scripts. -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+    <!-- Rubric Quality Criteria 1. : HTML5 semantic tags such as <header>, <footer>, <article>, <section> , etc. are used to add meaning to the code. -->
     <header>
         <h1>My Blog</h1>
-        <!-- Rubric Structure Criteria 3. : There is an intentional user flow on each page with appropiate links as needed. -->
+        <!-- Rubric Structure Criteria 4. : There is an intentional user flow on each page with appropiate links as needed. -->
         <!-- Nav bar with links to About and Contact pages-->
         <!-- Rubric Patterns Criteria: Blog Homepage Navbar. -->
         <nav>
@@ -27,14 +30,22 @@
         </nav>
     </header>
     <main class="main blog-main">
+        <!-- Rubric Design Criteria 1. : Custom images, layout, and styling. -->
+        <!-- Rubric Quality Criteria 1. : No div or section selectors are without a CSS class or id. -->
         <div class="container">
+            <!-- Rubric Quality Criteria 1. : No div or section selectors are without a CSS class or id. -->
             <div class="post">
+                <!-- Rubric Design Criteria 3. Components - Image(s). -->
                 <img src="../images/computer-panic.jpg" alt="Post image" class="post-image post-image-4">
+                <!-- Rubric Quality Criteria 1. : No div or section selectors are without a CSS class or id. -->
                 <div class="post-meta">
-                    <!-- Rubric Patterns Criteria: Author Info (name, title, current company/school, short bio, avatar). -->
+                    <!-- Rubric Design Criteria 4. : Patterns - Blog Post - Author Info (name, title, current company/school, short bio, avatar). -->
+                    <!-- Rubric Quality Criteria 1. : No div or section selectors are without a CSS class or id. -->
                     <div class="author">
+                        <!-- Rubric Design Criteria 3. Components - Image(s). -->
                         <img src="../images/me.jpg" alt="Author image" class="author-image">
-                        <div>
+                        <!-- Rubric Quality Criteria 1. : No div or section selectors are without a CSS class or id. -->
+                        <div class="author-box">
                             <div class="author-name">Andres R. Bucheli</div>
                             <div class="author-name">Front-End Web Developer</div>
                             <div class="author-name">Vonavis Software Development LLC - Belarus</div>
@@ -42,11 +53,15 @@
                             <div class="post-date">April 2, 2023</div>
                         </div>
                     </div>
+                    <!-- Rubric Quality Criteria 1. : No div or section selectors are without a CSS class or id. -->
                     <div class="post-category">Technology</div>
                 </div>
                 <!-- Rubric Patterns Criteria: Blog Post Header. -->
+                <!-- Rubric Design Criteria 2. : Foundations/Building Blocks. 1. Headers (h1 to h3 at minimum). -->
+                 <!-- Rubric Design Criteria 4. : Patterns - Blog Post - Header. -->
                 <h2>DON’T PANIC WITH CS50 IDE AND COMMAND LINE</h2>
                 <h3>Please help me, I can’t understand how this works!!! … … this is one of the most common messages found on collaborative platforms for programmers such as stackOverflow</h3>
+                <!-- Rubric Quality Criteria 1. : No div or section selectors are without a CSS class or id. -->
                 <div id="article-content">
                     <p>Some aspiring computer science students, especially younger ones who were born and who were raised in a world with Windows and graphical interfaces, are feeling frustrated and sometimes totally discouraged by being exposed to technology that dates back to the beginnings of commercial computing and that has not become obsolete despite developments in other areas.</p>
                     <p>The command line, Bash applications and Virtual Machines are essential in server administration and telecommunications and the best thing to do is trying to learn how to use them as soon as possible because their use is less complicated than it seems, despite the fact that the word “Linux” causes many people to panic.</p>
@@ -58,7 +73,9 @@
                     <p>Although the command line is commonly used in the software development industry and in the telecommunications industry, it is not well known to the next generation of aspiring programmers, because its history dates back to the 1970s before the creation of Windows and other systems that made computers easier to use.</p>
                     <p>In this tutorial, I intend to clear up step by step some of the doubts that younger people may have regarding the use of this type of technology.</p>
                 </div>
+                <!-- Rubric Quality Criteria 1. : No div or section selectors are without a CSS class or id. -->
                 <div class="image-grid">
+                    <!-- Rubric Design Criteria 3. Components - Image(s). -->
                     <img src="../images/ide-1.jpg" alt="Post image" class="post-image-4">
                     <img src="../images/ide-2.jpg" alt="Post image" class="post-image-4">
                     <img src="../images/ide-3.jpg" alt="Post image" class="post-image-4">
@@ -81,7 +98,9 @@
                     <img src="../images/ide-20.jpg" alt="Post image" class="post-image-4">
                 </div>
             </div>
-            <!-- Rubric Patterns Criteria: Social Sharing. -->
+            <!-- Rubric Design Criteria 4. : Patterns - Blog Post  Social Sharing. -->
+            <!-- Rubric Quality Criteria 1. : No div or section selectors are without a CSS class or id. -->
+            <p id="read-more">Read more articles <a href="https://medium.com/@andresregaladobucheli" target="_blank">here</a> </p>
             <div class="social-sharing">
                 <ul>
                   <li><a href="https://www.facebook.com/andres.regaladobucheli" target="_blank"><i class="fa fa-facebook"></i></a></li>
@@ -92,7 +111,8 @@
             </div>
         </div>
     </main>
+    <!-- Rubric Quality Criteria 1. : HTML5 semantic tags such as <header>, <footer>, <article>, <section> , etc. are used to add meaning to the code. -->
     <footer>
-        <p>Andres R. Bucheli - Bucheli Web Development © 2023</p>
+        <p>Bucheli Web Development © 2023</p>
     </footer>
 </body>

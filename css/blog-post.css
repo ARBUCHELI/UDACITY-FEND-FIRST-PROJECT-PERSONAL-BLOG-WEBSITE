@@ -2,9 +2,11 @@
     margin: 0 auto;
     box-shadow: 10px 10px 10px #a2b9bc;
 }
+
 .post {
     margin-bottom: 2rem;
 }
+
 .post h2 {
     margin-bottom: 0.5rem;
     border: 1px solid #2d4373;
@@ -13,6 +15,7 @@
     padding: 1em;
     color: white;
 }
+
 .post h3 {
     margin-bottom: 0.5rem;
     border: 1px solid #6b5b95;
@@ -21,6 +24,7 @@
     padding: 1em;
     color: white;
 }
+
 .post #article-content {
     font-family: 'Courier New', Courier, monospace;
     font-size: 0.9em;
@@ -30,9 +34,11 @@
     text-align: justify;
     border-radius: 5px;
 }
+
 .post p {
     margin-bottom: 1rem;
 }
+
 .post-image {
     width: 100%;
     height: 400px;
@@ -40,6 +46,7 @@
     margin-bottom: 1rem;
     border-radius: 5px;
 }
+
 .post-image-2 {
     width: 100%;
     height: 400px;
@@ -47,6 +54,7 @@
     margin-bottom: 1rem;
     border-radius: 5px;
 }
+
 .post-image-3 {
     width: 100%;
     height: 400px;
@@ -54,6 +62,7 @@
     margin-bottom: 1rem;
     border-radius: 5px;
 }
+
 .post-image-4 {
     width: 100%;
     height: 400px;
@@ -61,6 +70,7 @@
     margin-bottom: 1rem;
     border-radius: 5px;
 }
+
 .post-meta {
     display: flex;
     justify-content: space-between;
@@ -69,6 +79,7 @@
     color: #666;
     margin-bottom: 1rem;
 }
+
 .author-image {
     width: 50px;
     height: 50px;
@@ -76,34 +87,42 @@
     object-fit: cover;
     margin-right: 1rem;
 }
+
 .author-name {
     font-weight: bold;
     color: #6b5b95
 }
+
 .author-title {
     font-weight: bold;
     color: #3b5998;
 }
+
 .author-company {
     font-weight: bold;
     color: #3b5998;
 }
+
 .author-bio {
     font-weight: bold;
 }
+
 .post-date {
     font-weight: bold;
 }
+
 .social-sharing ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-  }
-  .social-sharing li {
+}
+
+.social-sharing li {
     margin-right: 10px;
-  }
-  .social-sharing a {
+}
+
+.social-sharing a {
     display: block;
     width: 30px;
     height: 30px;
@@ -114,704 +133,969 @@
     font-size: 16px;
     line-height: 30px;
     transition: all 0.3s ease-in-out;
-  }
-  .social-sharing a:hover {
+}
+
+.social-sharing a:hover {
     background-color: #2d4373;
-  }
-  .social-sharing i {
+}
+
+.social-sharing i {
     margin-top: 7px;
-  }
-  q {
+}
+
+q {
     font-weight: bold;
     color: #3b5998;
-  }
-  #article-content p a {
+}
+
+#article-content p a {
     font-weight: bold;
-  }
-  .post-3-subheader {
+}
+
+.post-3-subheader {
     text-align: left;
-  }
-  .image-grid {
+}
+
+/*Rubric Layout Criteria 2. : Grid Based Layout. Uses CSS Grid at least twice throughout the project to create the layout for pages.*/
+.image-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 10px;
-  }
-  .image-grid img {
+}
+
+.image-grid img {
     max-width: 100%;
     height: auto;
-  }
-  .blog-main {
+}
+
+.blog-main {
     border-radius: 5px;
-  }
-  @media only screen and (max-width: 1025px) {
+}
+
+#read-more {
+    font-size: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+/* Reponsive css */
+/*Rubric Reponsiveness Criteria 1. : Multi-Device Web Design. Pages are mobile-friendly and display correctly on all display sizes (mobile, tablet, desktop).*/
+@media only screen and (max-width: 1025px) {
     .post-container {
         width: 100%;
     }
-  }
-  @media only screen and (max-width: 1025px) {
+
+    #read-more {
+        font-size: 0.3em;
+        margin-bottom: 0.3em;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
     .blog-main {
         font-size: 5em;
         overflow-x: hidden;
     }
+
     .post-category {
         font-size: 18px;
     }
+
     .post {
         text-align: center;
     }
+
     .author {
         text-align: left;
     }
+
     .post h2 {
         font-size: 24px;
     }
+
     .author {
         font-size: 18px;
     }
+
     .post h3 {
         font-size: 20px;
     }
+
     .post #article-content {
         font-size: 20px;
     }
+
     .post-image {
         width: 790px;
         height: 790px;
         text-align: center;
     }
+
     .post-image-2 {
         width: 820px;
         height: 820px;
         text-align: center;
     }
+
     .harvard {
         width: 585px;
         height: 270px;
     }
+
     .eternal {
         width: 585px;
         height: 270px;
     }
+
     .procastinator {
         width: 585px;
         height: 270px;
     }
+
     .narcissistic {
         width: 585px;
         height: 270px;
     }
+
     .sufferer {
         width: 585px;
         height: 270px;
     }
-  }
-  @media only screen and (max-width: 913px) {
+}
+
+@media only screen and (max-width: 913px) {
     .post-container {
         width: 100%;
     }
-  }
-  @media only screen and (max-width: 913px) {
+}
+
+@media only screen and (max-width: 913px) {
     .blog-main {
         font-size: 5em;
         overflow-x: hidden;
     }
+
     .post-category {
         font-size: 18px;
     }
+
     .post {
         text-align: center;
     }
+
     .author {
         text-align: left;
     }
+
     .post h2 {
         font-size: 24px;
     }
+
     .author {
         font-size: 18px;
     }
+
     .post h3 {
         font-size: 20px;
     }
+
     .post #article-content {
         font-size: 20px;
     }
+
     .post-image {
         width: 790px;
         height: 790px;
         text-align: center;
     }
+
     .post-image-2 {
         width: 820px;
         height: 820px;
         text-align: center;
     }
+
     .harvard {
         width: 485px;
         height: 270px;
     }
+
     .eternal {
         width: 485px;
         height: 270px;
     }
+
     .procastinator {
         width: 485px;
         height: 270px;
     }
+
     .narcissistic {
         width: 485px;
         height: 270px;
     }
+
     .sufferer {
         width: 485px;
         height: 270px;
     }
-  }
-  @media only screen and (max-width: 821px) {
+
+    #read-more {
+        font-size: 0.3em;
+        margin-bottom: 0.3em;
+    }
+}
+
+@media only screen and (max-width: 821px) {
     .post-container {
         width: 100%;
     }
-  }
-  @media only screen and (max-width: 821px) {
+}
+
+@media only screen and (max-width: 821px) {
     .blog-main {
         font-size: 5em;
         overflow-x: hidden;
     }
+
     .post-category {
         font-size: 16px;
     }
+
     .post {
         text-align: center;
     }
+
     .author {
         text-align: left;
     }
+
     .post h2 {
         font-size: 24px;
     }
+
     .author {
         font-size: 16px;
     }
+
     .post h3 {
         font-size: 20px;
     }
+
     .post #article-content {
         font-size: 20px;
     }
+
     .post-image {
         width: 690px;
         height: 700px;
         text-align: center;
     }
+
     .post-image-2 {
         width: 735px;
         height: 735px;
         text-align: center;
     }
+
     .harvard {
         width: 420px;
         height: 230px;
     }
+
     .eternal {
         width: 420px;
         height: 230px;
     }
+
     .procastinator {
         width: 420px;
         height: 230px;
     }
+
     .narcissistic {
         width: 420px;
         height: 230px;
     }
+
     .sufferer {
         width: 420px;
         height: 230px;
     }
-  }
-  @media only screen and (max-width: 769px) {
+
+    #read-more {
+        font-size: 0.4em;
+        margin-bottom: 0.4em;
+    }
+}
+
+@media only screen and (max-width: 769px) {
     .post-container {
         width: 100%;
     }
-  }
-  @media only screen and (max-width: 769px) {
+}
+
+@media only screen and (max-width: 769px) {
     .blog-main {
         font-size: 5em;
         overflow-x: hidden;
     }
+
     .post-category {
         font-size: 14px;
     }
+
     .post {
         text-align: center;
     }
+
     .author {
         text-align: left;
     }
+
     .post h2 {
         font-size: 24px;
     }
+
     .author {
         font-size: 14px;
     }
+
     .post h3 {
         font-size: 20px;
     }
+
     .post #article-content {
         font-size: 20px;
     }
+
     .post-image {
         width: 640px;
         height: 650px;
         text-align: center;
     }
+
     .post-image-2 {
         width: 685px;
         height: 685px;
         text-align: center;
     }
+
     body {
         overflow-x: hidden;
-      }
+    }
+
+    #read-more {
+        font-size: 0.3em;
+        margin-bottom: 0.3em;
+    }
   }
-  @media only screen and (max-width: 541px) {
+
+@media only screen and (max-width: 541px) {
     .post-container {
         width: 100%;
     }
-  }
-  @media only screen and (max-width: 541px) {
+}
+
+@media only screen and (max-width: 541px) {
     .blog-main {
         font-size: 5em;
         overflow-x: hidden;
     }
+
     .post-category {
         font-size: 14px;
     }
+
     .post {
         text-align: center;
     }
+
     .author {
         text-align: left;
     }
+
     .post h2 {
         font-size: 24px;
     }
+
     .author {
         font-size: 14px;
     }
+
     .post h3 {
         font-size: 20px;
     }
+
     .post #article-content {
         font-size: 20px;
     }
+
     .post-image {
         width: 410px;
         height: 410px;
         text-align: center;
     }
+
     .post-image-2 {
         width: 460px;
         height: 460px;
         text-align: center;
     }
+
     body {
         overflow-x: hidden;
-      }
-  }
-  @media only screen and (max-width: 415px) {
+    }
+
+    #read-more {
+        font-size: 0.3em;
+        margin-bottom: 0.3em;
+    }
+}
+
+@media only screen and (max-width: 415px) {
     .post-container {
         width: 100%;
     }
-  }
-  @media only screen and (max-width: 415px) {
+}
+
+@media only screen and (max-width: 415px) {
     .blog-main {
         font-size: 5em;
         overflow-x: hidden;
     }
+
     .post-category {
         font-size: 10px;
     }
+
     .post {
         text-align: center;
     }
+
     .author {
         text-align: left;
     }
+
     .post h2 {
         font-size: 18px;
     }
+
     .author {
         font-size: 10px;
     }
+
     .post h3 {
         font-size: 16px;
     }
+
     .post #article-content {
         font-size: 16px;
     }
+
     .post-image {
         width: 295px;
         height: 300px;
         text-align: center;
     }
+
     .post-image-2 {
         width: 330px;
         height: 330px;
         text-align: center;
     }
+
     .post-image-3 {
         width: 300px;
         height: 300px;
         text-align: center;
     }
+
     body {
         overflow-x: hidden;
-      }
-      .harvard {
+    }
+
+    .harvard {
         width: 280px;
         height: 130px;
     }
+
     .eternal {
         width: 280px;
         height: 130px;
     }
+
     .procastinator {
         width: 280px;
         height: 130px;
     }
+
     .narcissistic {
         width: 280px;
         height: 130px;
     }
+
     .sufferer {
         width: 280px;
         height: 130px;
     }
-  }
-  @media only screen and (max-width: 413px) {
+
+    #read-more {
+        font-size: 0.5em;
+        margin-bottom: 0.5em;
+    }
+}
+
+@media only screen and (max-width: 413px) {
     .post-container {
         width: 100%;
     }
-  }
-  @media only screen and (max-width: 413px) {
+}
+
+@media only screen and (max-width: 413px) {
     .post-image-4 {
         width: 300px;
         height: 300px;
         text-align: center;
     }
-  }
-  @media only screen and (max-width: 394px) {
+
+    #read-more {
+        font-size: 0.5em;
+        margin-bottom: 0.5em;
+    }
+}
+
+@media only screen and (max-width: 394px) {
     .post-container {
         width: 100%;
     }
-  }
-  @media only screen and (max-width: 394px) {
+}
+
+@media only screen and (max-width: 394px) {
     .blog-main {
         font-size: 5em;
         overflow-x: hidden;
     }
+
     .post-category {
         font-size: 10px;
     }
+
     .post {
         text-align: center;
     }
+
     .author {
         text-align: left;
     }
+
     .post h2 {
         font-size: 16px;
     }
+
     .author {
         font-size: 10px;
     }
+
     .post h3 {
         font-size: 14px;
     }
+
     .post #article-content {
         font-size: 14px;
     }
+
     .post-image {
         width: 280px;
         height: 280px;
         text-align: center;
     }
+
     .post-image-2 {
         width: 310px;
         height: 310px;
         text-align: center;
     }
+
+    .post-image-4 {
+        width: 280px;
+        height: 280px;
+        text-align: center;
+    }
+
+    #read-more {
+        font-size: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
     body {
         overflow-x: hidden;
-      }
-  }
-  @media only screen and (max-width: 391px) {
+    }
+
+    #read-more {
+        font-size: 0.4em;
+        margin-bottom: 0.4em;
+    }
+}
+
+@media only screen and (max-width: 391px) {
     .post-container {
         width: 100%;
     }
-  }
-  @media only screen and (max-width: 391px) {
+}
+
+@media only screen and (max-width: 391px) {
     .blog-main {
         font-size: 5em;
         overflow-x: hidden;
     }
+
     .post-category {
         font-size: 10px;
     }
+
     .post {
         text-align: center;
     }
+
     .author {
         text-align: left;
     }
+
     .post h2 {
         font-size: 16px;
     }
+
     .author {
         font-size: 10px;
     }
+
     .post h3 {
         font-size: 14px;
     }
+
     .post #article-content {
         font-size: 14px;
     }
+
     .post-image {
         width: 280px;
         height: 280px;
         text-align: center;
     }
+
     .post-image-2 {
         width: 310px;
         height: 310px;
         text-align: center;
     }
+
+    .post-image-4 {
+        width: 280px;
+        height: 280px;
+        text-align: center;
+    }
+
+    #read-more {
+        font-size: 0.4em;
+        margin-bottom: 0.4em;
+    }
+
     body {
         overflow-x: hidden;
-      }
-  }
-  @media only screen and (max-width: 376px) {
+    }
+}
+
+@media only screen and (max-width: 376px) {
     .blog-main {
         font-size: 3em;
         overflow-x: hidden;
     }
+
     .post-category {
         font-size: 9px;
     }
+
     .post {
         text-align: center;
     }
+
     .author {
         text-align: left;
     }
+
     .post h2 {
         font-size: 12px;
     }
+
     .author {
         font-size: 9px;
     }
+
     .post h3 {
         font-size: 10px;
     }
+
     .post #article-content {
         font-size: 10px;
     }
+
     .post-image {
         width: 260px;
         height: 260px;
         text-align: center;
     }
+
     .post-image-2 {
         width: 290px;
         height: 290px;
         text-align: center;
     }
+
     .post-image-3{
         width: 260px;
         height: 260px;
         text-align: center;
     }
+
     .post-image-4{
         width: 270px;
         height: 270px;
         text-align: center;
     }
+
     .harvard {
         width: 280px;
         height: 130px;
     }
+
     .eternal {
         width: 280px;
         height: 130px;
     }
+
     .procastinator {
         width: 280px;
         height: 130px;
     }
+
     .narcissistic {
         width: 280px;
         height: 130px;
     }
+
     .sufferer {
         width: 280px;
         height: 130px;
     }
-  }
-  @media only screen and (max-width: 361px) {
+
+    #read-more {
+        font-size: 0.5em;
+        margin-bottom: 0.5em;
+    }
+}
+
+@media only screen and (max-width: 361px) {
     .post-container {
         width: 100%;
     }
-  }
-  @media only screen and (max-width: 361px) {
+}
+
+@media only screen and (max-width: 361px) {
     .blog-main {
         font-size: 5em;
         overflow-x: hidden;
     }
+
     .post-category {
         font-size: 9px;
     }
+
     .post {
         text-align: center;
     }
+
     .author {
         text-align: left;
     }
+
     .post h2 {
         font-size: 16px;
     }
+
     .author {
         font-size: 9px;
     }
+
     .post h3 {
         font-size: 14px;
     }
+
     .post #article-content {
         font-size: 14px;
     }
+
     .post-image {
         width: 250px;
         height: 250px;
         text-align: center;
     }
+
     .post-image-2 {
         width: 276px;
         height: 276px;
         text-align: center;
     }
+
     .post-image-3{
         width: 276px;
         height: 276px;
         text-align: center;
     }
+
     .post-image-4{
         width: 250px;
         height: 250px;
         text-align: center;
     }
+
     .harvard {
         width: 260px;
         height: 110px;
     }
+
     .eternal {
         width: 260px;
         height: 110px;
     }
+
     .procastinator {
         width: 260px;
         height: 110px;
     }
+
     .narcissistic {
         width: 260px;
         height: 110px;
     }
+
     .sufferer {
         width: 260px;
         height: 110px;
     }
-  }
-  @media only screen and (max-width: 281px) {
+
+    #read-more {
+        font-size: 0.4em;
+        margin-bottom: 0.4em;
+    }
+}
+
+@media only screen and (max-width: 281px) {
     .post-container {
         width: 100%;
     }
-  }
-  @media only screen and (max-width: 281px) {
+}
+
+@media only screen and (max-width: 281px) {
     .blog-main {
         font-size: 5em;
         overflow-x: hidden;
     }
+
     .post-category {
         font-size: 7px;
     }
+
     .post {
         text-align: center;
     }
+
     .author {
         text-align: left;
     }
+
     .post h2 {
         font-size: 7px;
     }
+
     .author {
         font-size: 7px;
     }
+
     .post h3 {
         font-size: 7px;
     }
+
     .post #article-content {
         font-size: 7px;
     }
+
     .post-image {
         width: 150px;
         height: 150px;
         text-align: center;
     }
+
     .post-supporting-image {
         width: 200px;
         height: 200px;
     }
+
     .post-image-2 {
         width: 150px;
         height: 150px;
         text-align: center;
     }
+
     .post-image-3 {
         width: 150px;
         height: 150px;
         text-align: center;
     }
+
     .post-image-4 {
         width: 150px;
         height: 150px;
         text-align: center;
     }
+
     .harvard {
         width: 180px;
         height: 50px;
     }
+
     .eternal {
         width: 180px;
         height: 50px;
     }
+
     .procastinator {
         width: 180px;
         height: 50px;
     }
+
     .narcissistic {
         width: 180px;
         height: 50px;
     }
+
     .sufferer {
         width: 180px;
         height: 50px;
     }
+
     .image-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-gap: 10px;
-      }
-      .image-grid img {
+    }
+
+    .image-grid img {
         max-width: 100%;
         height: auto;
-      }
-  }
+    }
+
+    #read-more {
+        font-size: 0.3em;
+        margin-bottom: 0.3em;
+    }
+}

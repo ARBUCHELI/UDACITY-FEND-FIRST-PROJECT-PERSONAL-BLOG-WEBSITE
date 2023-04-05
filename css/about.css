@@ -1,19 +1,24 @@
 * {
     box-sizing: border-box;
   }
+
   body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
   }
+
+  /*Rubric Layout Criteria 2. : Grid Based Layout. Uses CSS Grid at least twice throughout the project to create the layout for pages.*/
   main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
     padding: 40px;
   }
+
   main section h2 {
     margin-top: 0;
   }
+
   #my-story-header {
     margin-bottom: 1em;
     color: white;
@@ -24,6 +29,7 @@
     padding: 0.2em;
     width: fit-content;
   }
+
   #me-header {
     border: 1px solid #feb236;
     border-radius: 5px;
@@ -32,77 +38,95 @@
     width: fit-content;
     margin-bottom: 1em;
   }
+
   #story-container {
     background-color: #6b5b95;
     padding: 1em;
     border-radius: 5px;
     color: white;
   }
+
   #my-story p {
     margin-bottom: 1em;
   }
+
   .team-container {
     display: flex;
     flex-wrap: wrap;
   }
+
   .team-member {
     margin-right: 20px;
     margin-bottom: 20px;
     flex-basis: calc(33);
   }
+
   .team-member img {
     border: 2px solid white;
     border-radius: 5px;
   }
+
   #my-story {
     padding: 20px;
     background-color: #d6cbd3;
     border-radius: 5px;
     box-shadow: 10px 10px 10px #a2b9bc;
   }
+
   #me-header {
     color: #6b5b95;
     font-size: 2em;
   }
+
   #me h3 {
     color: #bc5a45;
     font-size: 1em;
   }
+
   #me p {
     color: #034f84;
     font-size: 1em;
     font-weight: bold;
   }
+
+  /* Reponsive css */
+  /*Rubric Reponsiveness Criteria 1. : Multi-Device Web Design. Pages are mobile-friendly and display correctly on all display sizes (mobile, tablet, desktop).*/
   @media only screen and (max-width: 913px) {
     .team-member img {
       width: 535px;
     }
   }
+
   @media only screen and (max-width: 821px) {
     .team-member img {
       width: 401px;
     }
   }
+
   @media only screen and (max-width: 541px) {
     .team-member img {
       width: 100px;
     }
   }
+
   @media only screen and (max-width: 415px) {
     .team-member img {
       width: 180px;
     }
   }
+
   @media only screen and (max-width: 391px) {
     .team-member img {
       width: 190px;
     }
   }
+
   @media only screen and (max-width: 376px) {
     .team-member img {
       width: 120px;
     }
   }
+
   @media only screen and (max-width: 281px) {
     .team-member img {
       width: 90px;

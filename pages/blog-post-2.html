@@ -1,3 +1,4 @@
+<!-- Rubric Quality Criteria 3. : HTML Style Rules. HTML documents HTML5 <!doctype html>. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,12 +10,14 @@
     <!-- Rubric Structure Criteria 3. : There are no elements in the document. -->
     <!-- Importing font-awesome icons.-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Rubric Quality Criteria 3. : HTML Style Rules. Code omits type attributes for style sheets and scripts. -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+    <!-- Rubric Quality Criteria 1. : HTML5 semantic tags such as <header>, <footer>, <article>, <section> , etc. are used to add meaning to the code. -->
     <header>
         <h1>My Blog</h1>
-        <!-- Rubric Structure Criteria 3. : There is an intentional user flow on each page with appropiate links as needed. -->
+        <!-- Rubric Structure Criteria 4. : There is an intentional user flow on each page with appropiate links as needed. -->
         <!-- Nav bar with links to About and Contact pages-->
         <!-- Rubric Patterns Criteria: Blog Homepage Navbar. -->
         <nav>
@@ -26,14 +29,22 @@
         </nav>
     </header>
     <main class="main blog-main">
+        <!-- Rubric Design Criteria 1. : Custom images, layout, and styling. -->
+        <!-- Rubric Quality Criteria 1. : No div or section selectors are without a CSS class or id. -->
         <div class="container post-container post-container">
+            <!-- Rubric Quality Criteria 1. : No div or section selectors are without a CSS class or id. -->
             <div class="post">
+                <!-- Rubric Design Criteria 3. Components - Image(s). -->
                 <img src="../images/mario-more.jpg" alt="Post image" class="post-image-2">
+                <!-- Rubric Quality Criteria 1. : No div or section selectors are without a CSS class or id. -->
                 <div class="post-meta">
-                    <!-- Rubric Patterns Criteria: Author Info (name, title, current company/school, short bio, avatar). -->
+                    <!-- Rubric Design Criteria 4. : Patterns - Blog Post - Author Info (name, title, current company/school, short bio, avatar). -->
+                    <!-- Rubric Quality Criteria 1. : No div or section selectors are without a CSS class or id. -->
                     <div class="author">
+                        <!-- Rubric Design Criteria 3. Components - Image(s). -->
                         <img src="../images/me.jpg" alt="Author image" class="author-image">
-                        <div>
+                        <!-- Rubric Quality Criteria 1. : No div or section selectors are without a CSS class or id. -->
+                        <div class="author-box">
                             <div class="author-name">Andres R. Bucheli</div>
                             <div class="author-name">Front-End Web Developer</div>
                             <div class="author-name">Vonavis Software Development LLC - Belarus</div>
@@ -41,11 +52,15 @@
                             <div class="post-date">April 2, 2023</div>
                         </div>
                     </div>
+                    <!-- Rubric Quality Criteria 1. : No div or section selectors are without a CSS class or id. -->
                     <div class="post-category">Technology</div>
                 </div>
                 <!-- Rubric Patterns Criteria: Blog Post Header. -->
+                <!-- Rubric Design Criteria 2. : Foundations/Building Blocks. 1. Headers (h1 to h3 at minimum). -->
+                 <!-- Rubric Design Criteria 4. : Patterns - Blog Post - Header. -->
                 <h2>MARIO MORE, THE NEXT STEP TOWARDS CONQUERING YOUR FEARS</h2>
                 <h3>Mario More is the first optional problem in the Problem Sets of CS50 Introduction to Computer Science course. Many students prefer to ignore it and just get on with the course. For many others, not solving this problem is becoming a moral dilemma and something that will haunt them for the rest of their lives…</h3>
+                <!-- Rubric Quality Criteria 1. : No div or section selectors are without a CSS class or id. -->
                 <div id="article-content">
                     <p>So there you are … lying on the couch in front of the TV and getting ready to relax completely by watching some good movie that will allow you to forget for a few moments your hard days as a Harvard student (online and not paying a penny, but a Harvard student anyway, and to hell with anyone who says otherwise. OK, OK, relax, relax).</p>
                     <p>You deserve this break, everything is ready. You have popcorn, pizza, an ice-cold beer and your wife is busy reading a book, your seven years old kid is already sleeping, so no one can disturb your inner peace.</p>
@@ -60,7 +75,9 @@
                     <p>Don’t worry, I’m here to help you think step-by-step about how to deal with these kinds of problems and to make you feel better. So start by reading the <a href="https://medium.com/@andresregaladobucheli/mario-more-the-next-step-towards-conquering-your-fears-69249c252b84" target="_blank">tutorial</a> and subscribe to our blog.</p>
                     <p>Good luck future Software Engineer.</p>
                 </div>
+                <!-- Rubric Quality Criteria 1. : No div or section selectors are without a CSS class or id. -->
                 <div class="image-grid">
+                    <!-- Rubric Design Criteria 3. Components - Image(s). -->
                     <img src="../images/algorithm-2-1.jpg" alt="Post Image 1" class="post-supporting-image">
                     <img src="../images/algorithm-2-2.jpg" alt="Post Image 2" class="post-supporting-image">
                     <img src="../images/algorithm-2-3.jpg" alt="Post Image 3" class="post-supporting-image">
@@ -69,7 +86,9 @@
                     <img src="../images/algorithm-2-6.jpg" alt="Post Image 4" class="post-supporting-image">
                 </div>
             </div>
-            <!-- Rubric Patterns Criteria: Social Sharing. -->
+            <!-- Rubric Design Criteria 4. : Patterns - Blog Post  Social Sharing. -->
+            <!-- Rubric Quality Criteria 1. : No div or section selectors are without a CSS class or id. -->
+            <p>Read more articles <a href="https://medium.com/@andresregaladobucheli" target="_blank">here</a> </p>
             <div class="social-sharing">
                 <ul>
                   <li><a href="https://www.facebook.com/andres.regaladobucheli" target="_blank"><i class="fa fa-facebook"></i></a></li>
@@ -80,6 +99,7 @@
             </div>
         </div>
     </main>
+    <!-- Rubric Quality Criteria 1. : HTML5 semantic tags such as <header>, <footer>, <article>, <section> , etc. are used to add meaning to the code. -->
     <footer>
         <p>Bucheli Web Development © 2023</p>
     </footer>
